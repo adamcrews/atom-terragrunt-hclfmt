@@ -1,17 +1,19 @@
 {
-  "name": "hclfmt",
-  "main": "./lib/hclfmt",
-  "version": "1.2.0",
-  "description": "Format hcl source code with hclfmt",
+  "name": "atom-terragrunt-hclfmt",
+  "main": "./lib/atom-inline-blame.js",
+  "version": "1.0.0",
+  "description": "Format hcl source code with terragrunt hclfmt",
   "keywords": [
     "hcl",
     "fmt",
-    "hclfmt"
+    "hclfmt",
+    "terragrunt",
+    "terraform"
   ],
-  "repository": "https://github.com/chrw/atom-hclfmt",
+  "repository": "https://github.com/adamcrews/atom-terragrunt-hclfmt",
   "license": "MIT",
   "engines": {
-    "atom": ">=1.0.0"
+    "atom": ">=1.4.0 <2.0.0"
   },
   "dependencies": {},
   "package-deps": [
