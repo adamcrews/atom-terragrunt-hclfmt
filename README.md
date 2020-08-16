@@ -1,13 +1,17 @@
-# hclfmt package
+# atom-terragrunt-hclfmt package
 
-Format hcl source code with hclfmt.
+Format hcl source code with `terragrunt hclfmt`.
+
+Since hclfmt is no longer maintained, we'll use the terragrunt version of it, built into terragrunt
+
+This was forked and updated from: https://github.com/chrw/atom-hclfmt
 
 ## Requirements
-- hclfmt: https://github.com/fatih/hclfmt
+- terragrunt: https://terragrunt.gruntwork.io/
 
 ## Configuration
 ```json
-hclfmt:
-  binPath: "hclfmt"
+"atom-terragrunt-hclfmt":
+  binPath: "terragrunt"
   fmtOnSave: true
 ```

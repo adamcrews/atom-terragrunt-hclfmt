@@ -1,0 +1,26 @@
+{
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "atom-terragrunt-hclfmt",
+          "submenu": [
+            {
+              "label": "Format",
+              "command": "atom-terragrunt-hclfmt:format"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "context-menu": {
+    "atom-text-editor[data-grammar~=\"hcl\"]": [
+      {
+        "label": "Format with terragrunt hclfmt",
+        "command": "atom-terragrunt-hclfmt:format"
+      }
+    ]
+  }
+}
