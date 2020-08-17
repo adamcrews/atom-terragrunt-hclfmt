@@ -1,7 +1,7 @@
 {
   "name": "atom-terragrunt-hclfmt",
   "main": "./lib/atom-terragrunt-hclfmt.js",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Format hcl source code with terragrunt hclfmt",
   "keywords": [
     "hcl",
