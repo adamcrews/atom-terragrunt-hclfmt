@@ -4,7 +4,7 @@ Format hcl source code with `terragrunt hclfmt`.
 
 Since hclfmt is no longer maintained, we'll use the terragrunt version of it, built into terragrunt
 
-This was forked and updated from: https://github.com/chrw/atom-hclfmt
+This atom package was forked and updated from: https://github.com/chrw/atom-hclfmt
 
 ## Requirements
 - terragrunt: https://terragrunt.gruntwork.io/
